@@ -10,37 +10,56 @@ const ImgCarousel = () => {
       <Carousel variant='dark'>
         <Carousel.Item>
           <img
-            style={{ marginTop: '4rem', height: '80vh', position: 'center' }}
+            style={{
+              marginTop: '4rem',
+              height: '80vh',
+              position: 'center',
+              boxShadow: '9px 10px 48px 0px rgba(0,0,0,0.48)',
+            }}
             src={Pic1}
             alt='First slide'
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <Carousel.Caption style={{ color: 'white' }}>
+            <h3>Title</h3>
+            <p>Dimensions</p>
+            <p>Date of creation</p>
+            <p>Story behind the piece</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ marginTop: '4rem', height: '80vh', position: 'center' }}
+            style={{
+              marginTop: '4rem',
+              height: '80vh',
+              position: 'center',
+              boxShadow: '9px 10px 48px 0px rgba(0,0,0,0.48)',
+            }}
             src={Pic2}
             alt='Second slide'
           />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption style={{ color: 'white' }}>
+            <h3>Title</h3>
+            <p>Dimensions</p>
+            <p>Date of creation</p>
+            <p>Story behind the piece</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ marginTop: '4rem', height: '80vh', position: 'center' }}
+            style={{
+              marginTop: '4rem',
+              height: '80vh',
+              position: 'center',
+              boxShadow: '9px 10px 48px 0px rgba(0,0,0,0.48)',
+            }}
             src={Pic3}
             alt='Third slide'
           />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+          <Carousel.Caption style={{ color: 'white' }}>
+            <h3>Title</h3>
+            <p>Dimensions</p>
+            <p>Date of creation</p>
+            <p>Story behind the piece</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
