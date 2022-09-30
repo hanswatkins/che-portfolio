@@ -3,14 +3,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-import logo from '../pictures/logo.png';
 
 const NavBar = () => {
   return (
     <Navbar bg='light' expand='lg'>
       <Container>
         <Link to='/' style={{ textDecoration: 'none' }}>
-          <Navbar.Brand href='#home'>Marche Rhyne</Navbar.Brand>
+          <Navbar.Brand className='nav-logo' href='#home'>
+            CHE.
+          </Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -20,8 +21,16 @@ const NavBar = () => {
               <Nav.Link href='#art'>Art</Nav.Link>
             </Link> */}
             <Link to='/about' style={{ textDecoration: 'none' }}>
-              <Nav.Link href='#about'>About</Nav.Link>
+              <Nav.Link className='nav-text' href='#about'>
+                About
+              </Nav.Link>
             </Link>
+            <Nav.Link
+              className='nav-text'
+              href='https://www.instagram.com/selftightld'
+            >
+              Follow{/* <i class='fa-brands fa-instagram'></i> */}
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

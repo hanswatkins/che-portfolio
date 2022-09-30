@@ -1,11 +1,11 @@
 import React from 'react';
-import che from '../pictures/che.jpeg';
+import che from '../pictures/che.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
   return (
     <div>
-      <Container>
+      <Container style={{ marginTop: '5rem' }}>
         <Row>
           <Col></Col>
           <Col>
@@ -14,7 +14,6 @@ const About = () => {
               alt='Portrait of Che'
               style={{
                 width: '100%',
-                marginTop: '5rem',
                 boxShadow: '9px 10px 48px 0px rgba(0,0,0,0.48)',
               }}
             ></img>
@@ -24,13 +23,14 @@ const About = () => {
         <Row>
           <Col xs='2'></Col>
           <Col>
-            <h3
+            <h1
               style={{
-                marginTop: '1rem',
+                marginTop: '2rem',
+                fontFamily: 'VulfSansBlack',
               }}
             >
               Marche Rhyne
-            </h3>
+            </h1>
             <p
               style={{
                 marginTop: '1rem',

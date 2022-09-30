@@ -1,3 +1,13 @@
+@font-face {
+  font-family: VulfSansBlack;
+  src: url('./fonts/VulfSans-Black.otf');
+}
+
+@font-face {
+  font-family: VulfSansRegular;
+  src: url('./fonts/VulfSans-Regular.otf');
+}
+
 .App {
   text-align: center;
 }
@@ -6,3 +16,24 @@ h1 {
   font-size: 3rem;
 }
 
+.nav-logo {
+  font-family: VulfSansBlack;
+  font-size: 2rem;
+}
+
+.nav-text {
+  font-family: VulfSansRegular;
+  font-size: 1rem;
+}
+
+p,
+h1,
+h2,
+h3 {
+  font-family: VulfSansRegular;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}

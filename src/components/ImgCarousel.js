@@ -7,7 +7,7 @@ import Pic3 from '../pictures/3.jpg';
 const ImgCarousel = () => {
   return (
     <div class='container'>
-      <Carousel variant='dark'>
+      <Carousel variant='light'>
         <Carousel.Item>
           <img
             style={{
