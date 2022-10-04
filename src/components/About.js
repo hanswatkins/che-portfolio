@@ -10,6 +10,7 @@ const About = () => {
           <Col></Col>
           <Col>
             <img
+              roundedCircle
               src={che}
               alt='Portrait of Che'
               style={{
